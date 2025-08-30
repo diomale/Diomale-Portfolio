@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My web</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul class="nav-links" class="nav-left">
+      <li><a href="#home" class="nav-item">Home</a></li>
+      <li><a href="#about" class="nav-item">About Me</a></li>
+      <li><a href="#update" class="nav-item">Update</a></li>
+    </ul>
+
+    <div>
+      <img src="picture/logo.png" alt="logo" class="logo">
+    </div>
+
+    <ul class="nav-links" class="nav-right">
+      <li><a href="#skills" class="nav-item">Skills</a></li>
+      <li><a href="#projects" class="nav-item">Projects</a></li>
+      <li><a href="#contact" class="nav-item">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header id="home" class="home">
+    <h1 class="hero_title">
+      Hello! I'm <br> 
+      <strong>Diomale Romero</strong><br>
+      Indie Game Developer & <br>Full-Stack Developer
+    </h1>
+
+    <div class="parent_color">
+      <div class="red"></div>
+      <div class="orange"></div>
+      <div class="yellow"></div>
+      <img src="picture/profile.png" alt="" class="profile">
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="section-title">
+      <h2>Hobbies</h2>
+    </div>
+
+    <div class="hobbies_group">
+      
+      <div class="hobby_one">
+        <div class="hobby_content_one">
+            <img src="picture/paper-crafts.png" alt="Arts" class="hobby_img">
+            <h3>Arts</h3>
+        </div>
+        <div class="hide_one">
+          <p>I tried Pixel art, Digital Art, Realistic Charcoal Art</p>
+        </div>
+      </div>
+
+      <div class="hobby_two">
+        <div class="hobby_content_two">
+            <img src="picture/game-development.png" alt="Game Dev" class="hobby_img">
+            <h3>Game Dev</h3>
+          </div>
+          <div class="hide_two">
+            <p>Designing and developing immersive indie games.</p>
+          </div>     
+      </div>
+
+      <div class="hobby_three">
+        <div class="hobby_content_three">
+            <img src="picture/chess.png" alt="Chess" class="hobby_img">
+            <h3>Chess</h3>
+        </div>
+        <div class="hide_three">
+          <p>I love to play chess my elo is 17K sometimes 100</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about_me">
+      <p class="about_text">
+        Hi! I'm Diomale Romero, an Indie Game Developer and Full-Stack Developer passionate about creating engaging, interactive experiences from immersive games to fully functional applications. I enjoy bringing ideas to life from concept to launch, handling everything from gameplay mechanics and art integration to backend systems and user-friendly interfaces.
+      </p>
+    </div>
+  </section>
+
+  <!-- Update Section -->
+  <section id="update" class="updates">
+
+    <div class="update_list">
+      <div class="card_color_red">
+        <video width="320" height="240" controls>
+          <source src="videos/CrissCrossTrailer.mp4" type="video/mp4">
+        </video>
+        <h3>What's New</h3>
+        <p>You're a tiny runner on a massive road — and the cars just keep coming...</p>
+      </div>
+
+      <div class="card_color_yellow">
+        <video width="320" height="240" controls >
+          <source src="videos/intro.mp4" type="video/mp4">
+        </video>
+        <h3>Cutscene</h3>
+        <p>Some cutscene every you chose a player to add a lore and make the game interesting.</p>
+      </div>
+
+      <div  class="card_color_orange">
+        <video width="320" height="240" controls >
+          <source src="videos/phase1.mp4" type="video/mp4">
+        </video>
+        <h3>Phase 1</h3>
+        <p>Currently working on physics logic and balancing gameplay.</p>
+      </div>
+
+      <div class="card_color_yellow">
+        <video width="320" height="240" controls >
+          <source src="videos/GameDevpt1.mp4" type="video/mp4">
+        </video>
+        <h3>Prototype</h3>
+        <p>Testing some stuff.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-wrapper">
+
+      <div class="skill-container">
+        <div class="skill-icon">
+          <img src="/picture/Unity Logo.jpg" alt="Unity">
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 50%;">
+            <span class="label">Unity</span>
+            <span>50%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <div class="skill-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%;">
+            <span class="label">HTML</span>
+            <span>80%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <div class="skill-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 70%;">
+            <span class="label">CSS</span>
+            <span>70%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <div class="skill-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 60%;">
+            <span class="label">JavaScript</span>
+            <span>60%</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-list">
+      <div class="project-category">
+        <h2>MOBILE</h2>
+        <div class="project-card">
+          <img src="project_icon/profilecrisscross.png" alt="">
+          <a href="https://n01zu.itch.io/criss-cross-mobile"><h3>Criss Cross Mobile</h3></a>
+          <p>2025-07-25</p>
+        </div>
+      </div>
+
+      <div class="project-category">
+        <h2>Application</h2>
+        <div class="project-card">
+          <img src="" alt="">
+          <a href=""><h3>Portfolio</h3></a>
+        </div>
+      </div>
+
+      <div class="project-category">
+        <h2>Arts</h2>
+        <div class="project-card">
+          <img src="" alt="">
+          <a href=""><h3>To Do List</h3></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      
+      <!-- Left Sidebar -->
+      <div class="contact-info">
+        <h2 class="contact-title">Find me</h2>
+        <div class="info-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email" class="icon">
+          <span>diomale@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone" class="icon">
+          <span>123-456-789-1011</span>
+        </div>
+        <div class="info-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="facebook" class="icon">
+          <span>facebook.com</span>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2 class="form-title">Get in Touch</h2>
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Email" class="form-input">
+            <input type="text" placeholder="Name" class="form-input">
+          </div>
+          <input type="text" placeholder="Subject" class="form-input full-width">
+          <textarea placeholder="Message" class="form-textarea"></textarea>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Diomale Romero. All rights reserved.</p>
+  </footer>
+</body>
+</html>
